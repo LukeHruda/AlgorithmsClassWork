@@ -2,12 +2,12 @@ import java.util.*;
 public class Fibonacci{
   public static void main(String[] args) {
     Scanner in = new Scanner(System.in);
-    int n = in.nextInt();
+    long n = in.nextInt();
     for(int i = 0; i<n;i++){
-      int n1 =0;
-      int n2 =1;
-      int n3 =0;
-      int fib = in.nextInt();
+      long n1 =0;
+      long n2 =1;
+      long n3 =0;
+      long fib = in.nextInt();
       if(fib == 0)
       {
         System.out.println("Fib(0) = 0");
